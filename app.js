@@ -9,4 +9,11 @@ function createStore(name, minCustomer, maxCustomer, avgCookieSales) {
   this.avgCookieSales = avgCookieSales;
 }
 
-function createAndPushNewStore
+createStore.prototype.randomCookiePerHour = function() {
+  return Math.round((Math.random()) * (this.maxCustomer - this.minCustomer) + this.minCustomer0 * this.avgCookieSales);
+};
+
+function createAndPushNewStore(name, minCustomer, maxCustomer, avgCookieSales){
+  createStore(name, minCustomer, maxCustomer, avgCookieSales);
+  storeLocationsArray.push;
+}
