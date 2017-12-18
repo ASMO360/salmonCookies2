@@ -43,6 +43,7 @@ nav {
 
 h1 {
   font-size: 1.5em;
+  font-family: 'Lato', sans-serif;
   margin-left: 10%;
 }
 
@@ -52,8 +53,34 @@ main {
 
 }
 
-#Salmon-cookies-logo {
+p {
+  font-weight: bold;
+  padding: 2%;
+}
+
+footer {
+  margin-left: 10px;
+}
+
+#salmon-cookies-logo {
   min-height: 30px;
   max-height: 30px;
   float: left;
+}
+
+#salmon-cookies-shirt {
+  position: relative;
+  margin-left: 35%;
+  padding-top: 5%;
+  max-width: 140px;
+}
+
+#telephone {
+  float: right;
+  margin-right: 10px;
+}
+
+#t-shirt {
+  padding: 2px;
+  margin: 1px;
 }
